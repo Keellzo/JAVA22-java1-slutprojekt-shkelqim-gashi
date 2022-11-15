@@ -40,7 +40,7 @@ public class GUICalendar extends JFrame {
     }
 
     void PanelLayout() {
-        dayPanel = new JPanel();
+        super.add(dayPanel = new JPanel());
         dayPanel.setBackground(Color.decode("#e6e6e6"));
         dayPanel.setLayout(new GridLayout(10, 1));
         super.add(dayPanel);
